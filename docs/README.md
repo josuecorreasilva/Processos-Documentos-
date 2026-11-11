@@ -26,3 +26,8 @@ docs/
 pip install python-docx
 python3 scripts/gerar_documentos.py
 ```
+
+
+## Processos O2 (padrão RP)
+
+Pacote novo no estilo dos documentos RP02–RP13: [`04-PROCESSOS-O2/`](04-PROCESSOS-O2/).
