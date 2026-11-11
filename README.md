@@ -9,3 +9,6 @@ Comece por [`docs/README.md`](docs/README.md) e pela pasta [`docs/00-INSTRUCAO-G
 
 
 Processos O2 (padrão RP): [`docs/04-PROCESSOS-O2/`](docs/04-PROCESSOS-O2/).
+
+
+Painel (RP + O2): [`painel-compras-empenhos/`](painel-compras-empenhos/) — abra `#registros`.
