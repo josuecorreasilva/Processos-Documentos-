@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Compras, empenhos e emendas — Atenção Primária</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="app">
+    <aside class="nav">
+      <div>
+        <div class="brand-kicker">Atenção primária</div>
+        <div class="brand-title">Compras,<br>empenhos<br>e emendas</div>
+        <p class="brand-sub">O processo, o empenho, a emenda e a entrega no mesmo registro.</p>
+      </div>
+      <label class="nav-search">
+        <span>Busca geral</span>
+        <input id="q" type="search" placeholder="SIS, empenho, emenda, fornecedor" />
+      </label>
+      <nav class="nav-links" id="nav">
+        <a href="#painel" data-view="painel">Painel</a>
+        <a href="#registros" data-view="registros">Registros de preços</a>
+        <a href="#compras" data-view="compras">Compras</a>
+        <a href="#empenhos" data-view="empenhos">Empenhos</a>
+        <a href="#emendas" data-view="emendas">Emendas</a>
+        <a href="#materiais" data-view="materiais">Materiais</a>
+        <a href="#dados" data-view="dados">Cópia dos dados</a>
+      </nav>
+      <div class="nav-foot">
+        Quatro planilhas reunidas neste computador. O que você alterar fica salvo neste navegador.
+      </div>
+    </aside>
+    <main class="main">
+      <div id="view"></div>
+    </main>
+  </div>
+  <div id="toast" class="toast" hidden></div>
+  <script src="js/seed.js"></script>
+  <script src="js/acervo-rp.js"></script>
+  <script src="js/app.js?v=16"></script>
+</body>
+</html>
