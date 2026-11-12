@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Marca Queremos Viver">
+  <defs>
+    <linearGradient id="g" x1="40" y1="20" x2="200" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#59B8D7"/>
+      <stop offset=".55" stop-color="#0E6F8F"/>
+      <stop offset="1" stop-color="#2FA250"/>
+    </linearGradient>
+  </defs>
+  <circle cx="120" cy="120" r="108" fill="#fff" stroke="#D7E4E8" stroke-width="4"/>
+  <path d="M42 148c28-42 58-62 88-62s60 20 88 62" fill="none" stroke="url(#g)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M58 168c24-34 48-50 62-50s38 16 62 50" fill="none" stroke="#F9BA38" stroke-width="10" stroke-linecap="round" opacity=".9"/>
+  <circle cx="120" cy="96" r="18" fill="#EB2C35"/>
+  <circle cx="120" cy="96" r="8" fill="#fff"/>
+</svg>
